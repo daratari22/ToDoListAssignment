@@ -54,3 +54,79 @@ table {
 }
 
 /* Your styles go here */
+
+.wrap {
+	width: 600px;
+	margin: 25px;
+}
+
+.wrap h1{
+	font-family: monospace;
+	font-size: 30px;
+	color: #555555;
+	padding-bottom: 12px;
+	margin-bottom: 4px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.wrap li{
+	font-family: monospace;
+	font-size: 14px;
+	line-height: 18px;
+	color: #777777;
+	margin-bottom: 20px;
+}
+.wrap p {
+	font-family: monospace;
+	font-size: 18px;
+	color: #777777;
+	padding-top: 12px;
+}
+
+.wrap button {
+	text-align: center;
+	font-family: monospace;
+	font-size: 18px;
+	color: #ffffff;
+	width: 200px;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	margin-top: 10px;
+	margin-right: 5px;
+	background-color: #777777; 
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+}
+
+.wrap button:hover{
+	color: #ffffff;
+	background-color: #ff9933; 
+	text-decoration: none;
+	border: none;
+}
+
+#list{
+	font-family: monospace;
+	color: #777777;
+	font-size: 18px;
+	line-height: 30px;
+	margin-top: 30px;
+	border-top: 1px solid #eeeeee;
+	padding-top: 30px;
+}
+
+.wrap input{
+	text-align: left;
+	border: 1px solid #dddddd;
+	padding: 5px;
+	width: 190px;
+	height: 20px;
+	margin-right: 2px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.checked-off {
+	text-decoration: line-through;
+}

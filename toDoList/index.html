@@ -18,11 +18,36 @@
 		/*local styles if any (quick tests and local only overrides)*/
 	</style>
 </head>
+
 <body>
 
 	<div class="wrap" >
 		<h1>To Do List</h1>
+		
+		<p>Enter Task<p/>
+			
+ 		<form name="form">
+            <input type="text" name="toDoItem">
+        </form>
+
+		<button onclick="createList();">Add Task</button>
+
+        <div id="list">List:</div>
+	
 	</div>
+	
+	<script type="text/javascript" charset="utf-8">
+	
+		var i = 0;
+
+		function createList() {
+		    i++;
+		    var toDoItem = document.form.toDoItem.value;
+		    var listed = '<div id="item' + i + '"/>' + toDoItem + '</div>';
+		    document.getElementById("list").innerHTML += listed;
+		}
+		
+	</script>
 	
 </body>
 </html>
